@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+}
+
+#navbarMonstera {
+  margin: 80px 50px;
+  display: flex;
+  align-items: center;
+}
+
+#navMid {
+  display: flex;
+  flex: 2 1 0;
+  justify-content: center;
+}
+
+#navMid div {
+  margin: 0px 40px;
+}
+
+#navMid div h4{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.first-nav{
+    text-decoration: underline;
+}
+
+#navEnd{
+    display: flex;
+}
+
+#navEnd div{
+    padding: 0px 15px;
+}
+
+/* hero section */
+
+#midWhole{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 50px;
+}
+
+#imgMain{
+    margin-left: 14%;
+}
+
+#monstera{
+    font-size: 100px;
+}
+
+li{
+    font-size: 20px;
+    color: #000;
+    font-weight: 500;
+}
+
+#midWholePart11{
+    margin-top: 150px;
+}
+
+.discover{
+    color: #fff;
+    padding: 20px 40px;
+    font-size: 30px;
+    border-radius: 50px;
+    background-color: #466D50;
+    font-weight: 500;
+    border: none;
+    margin-top: 70px;
+}
+
+.fa-solid{
+    padding-left: 10px;
+}
+
+#midWholePart13{
+    display: flex;
+    margin-top: 80px;
+}
+
+.midWholePart13Parts{
+    display: flex;
+}
+
+.midWholePart13Parts div img{
+    margin-right: 5px;
+}
+
+.midWholePart13Parts div h4{
+    font-size: 22px;
+}
+
+.text{
+    font-size: 12px;
+    font-weight: 500;
+}
